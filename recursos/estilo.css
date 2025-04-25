@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.encabezado{
+    background-color: #354453;
+    height: 3rem;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 50rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-right: 50rem;
+}
+nav :hover{
+    color:white;
+}
+.encabezado a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    background-color: beige;  
+    height: 30rem;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 5rem;
+    margin-left: 3rem;
+}
+.producto{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40rem;
+}
